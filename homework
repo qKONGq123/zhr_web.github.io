@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/作业2.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+    <script>
+        alert("千万不要点鼠标")
+    </script>
+  
+</head>
+<body>
+    <!---网站栏---网站栏--网站栏--网站栏--网站栏--网站栏--网站栏--网站栏--网站栏--网站栏-->
+    <div class="wangzhanlan">
+        <span ><a href="https://www.bilibili.com/">网站首页</a></span>
+        <span><a href="https://www.bilibili.com/">我的爱好</a></span>
+        <span><a href="https://www.bilibili.com/">我的首页</a></span>
+        <span><a href="https://www.bilibili.com/">班级相册</a></span>
+        <span><a href="https://www.bilibili.com/">我的梦想</a> </span>
+        <span class="in"><a href="https://juejin.cn/creator/content/column?status=all" >我的博客</a></span>
+        <span class="on"><a href="https://s.pc.qq.com/tousu/img/20211102/8559600_1635834434.jpg" >关于我</a></span>
+    </div>
+    <hr>
+<!--网站内容----网站内容----网站内容----网站内容----网站内容----网站内容-->
+<div class="color">
+    <div class="content">
+<!--功能侧栏----功能侧栏----功能侧栏----功能侧栏----功能侧栏----功能侧栏-->
+        <div class="side_column">
+<!--头像----头像----头像----头像----头像----头像----头像-->
+            <div class="face" >
+                <img src="https://s.pc.qq.com/tousu/img/20211026/3806453_1635223149.jpg" alt="狗头">
+            </div>
+<!-- 最新照片 ---- 最新照片 ---- 最新照片 ---- 最新照片 ---- 最新照片 -->
+            <div class="new_picture">
+                &nbsp; &nbsp; &nbsp; &nbsp;最新照片
+            </div>
+<!-- 照片 --- 照片 -- 照片 -- 照片 -- 照片 -- 照片 -- 照片 -- 照片 -->
+            <div class="little_picture">
+                <img src="https://s.pc.qq.com/tousu/img/20211102/9328043_1635853691.jpg" alt="1">
+                <img src="https://s.pc.qq.com/tousu/img/20211102/5689919_1635853691.jpg" alt="2">
+                <img src="https://s.pc.qq.com/tousu/img/20211102/7950426_1635853690.jpg" alt="3">
+                <img src="https://s.pc.qq.com/tousu/img/20211102/3057656_1635853691.jpg" alt="4">
+                <img src="https://s.pc.qq.com/tousu/img/20211102/3184141_1635853691.jpg" alt="5">
+                <img src="https://s.pc.qq.com/tousu/img/20211102/2307673_1635853693.jpg" alt="6">
+                <img src="https://s.pc.qq.com/tousu/img/20211102/1554453_1635853694.jpg" alt="7">
+                <img src="https://s.pc.qq.com/tousu/img/20211102/9282487_1635853690.jpg" alt="8">
+            </div>
+
+<!-- 小调查 ---- 小调查 ---- 小调查 ---- 小调查 ---- 小调查 ---- 小调查 -->
+            <div class="survey">
+                &nbsp; &nbsp; &nbsp; &nbsp;小调查
+            </div>
+<!-- 调查表单 ---- 调查表单 ---- 调查表单 ---- 调查表单 ---- 调查表单 -->
+            <div class="form">
+                <form action="">
+                    <div class="like">请选择你喜欢的运动:</div>
+                    <input type="checkbox" name="play">
+                    <span> 篮球</span>
+                    <br>
+                    <input type="checkbox" name="play" >
+                    <span>足球</span> 
+                    <br>
+                    <input type="checkbox" name="play">
+                    <span>网球</span>
+                    <br>
+
+<!-- 重置 ---- 重置 ---- 重置 ---- 重置 ---- 重置 ---- 重置 -->
+            <input type="reset" class="chongzhi">
+            <input type="submit" class="tijiao" name="">
+                </form>
+            </div>
+        </div>
+<!-- 主要内容 ---- 主要内容 ---- 主要内容 ---- 主要内容 ---- 主要内容 ---- 主要内容 -->
+        <div class="main">
+            <div class="tittle">
+                <b>《当你老了》——————叶芝</b> 
+            </div>
+            <b><hr></b>
+            <div class="word">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当年华已逝，你两鹫斑白,沉沉欲睡,坐在炉边慢慢打盹，请取下我的这本诗集，请缓缴读起,如一般,你会重温，你那制蔚眼波,地们是曾经那么的深情和柔美。
+                <br>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;多少人曾爱过你容光烧发的靡是魅力,爱你的倾城容颜,或是真心,或是做戏，但只有一个人!他爱的是你圣洁虔诚的心!当你洗尽铅华，伤逝红楠的老去,他也依然深爱着你!
+                <br>
+                <br>
+                <img src="https://s.pc.qq.com/tousu/img/20211102/9093406_1635857995.jpg" alt="狗头">
+                <br>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;炉里的火雄温暖明亮，你轻轻低下头去,带着淡淡的蠹然，为了枯萎熄灭的爱情,喃清低语,此时他正在千山万之间独自游落,在那满天准视你的繁星后面隐起了险魔。
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="adu5" width="159" style="z-index: 99999; left: 747px; position: absolute; top: 344px;">
+    <table cellspacing="0" cellpadding="0" border="0">   
+    <tbody>   
+   
+        <tr align="center">   
+            <td align="left">
+               <video loop autoplay muted src="./video/鸽了但又没完全鸽【藏狐】【藏狐】 - 1.鸽了但又没完全鸽[藏狐][藏狐](Av721368343,P1).mp4"width="250" height="200"></video>
+            </td> 
+        </tr> 
+   
+    </tbody> 
+    </table> 
+</div>
+    
+</div>
+<div class="bottom">
+    <span>联系我们 |</span>
+    <span>网站首页 |</span>
+    <span>管理后台 |</span>
+</div>
+<script>
+    $(document).ready(function(){
+var a_index = 0;
+$("body").click(function(e){
+    var a = new Array("老师", "给", "我", "介绍", "个"
+    ,"小姐姐");
+    var $i = $("<span/>").text(a[a_index]);
+    a_index = (a_index + 1) % a.length;
+    var x = e.pageX,y = e.pageY;
+    $i.css({
+        "z-index": 99999,
+        "top": y - 20,
+        "left": x,
+        "position": "absolute",
+        "font-weight": "bold",
+        "color": "#ff6651"
+    });
+    $("body").append($i);
+    $i.animate({"top": y-180,"opacity": 0},1500,function() {
+        $i.remove();
+    });
+});
+});
+</script>
+<!-- 爷们需要的js地方 -->
+<script>   
+    function showimagecloseu5()   
+    {   
+        var obju5=document.getElementById("adu5");   
+        obju5.style.display = 'none';   
+    };   
+    //水平             //上下    
+       
+    var xu5 = 0;yu5 = 0;   
+       
+    var xinu5 = true; yinu5 = true;   
+    var stepu5 = 1;   
+       
+    var delayu5 = 88;   
+     
+    var obju5=document.getElementById("adu5");
+    var bdyu5 = document.body;  
+        if (document.compatMode && document.compatMode != "BackCompat")
+            bdyu5 = document.documentElement;
+        else
+            bdyu5 = document.body;
+    function floatADu5()
+    {
+        var bdy_scrollTop = document.body.scrollTop | document.documentElement.scrollTop;
+        var Lu5=Tu5=0;   
+        var Ru5= bdyu5.clientWidth-obju5.offsetWidth;  
+        var Bu5 = bdyu5.clientHeight-obju5.offsetHeight; 
+        obju5.style.left = xu5 + bdyu5.scrollLeft+"px";   
+        obju5.style.top = yu5 + bdy_scrollTop+"px";   
+        xu5 = xu5 + stepu5*(xinu5?1:-1);    
+        if(xu5 < Lu5) 
+        { 
+            xinu5 = true;
+            xu5 = Lu5;
+        }  
+        if(xu5 > Ru5)
+        { 
+            xinu5 = false; 
+            xu5 = Ru5;
+        }  
+        yu5 = yu5 + stepu5*(yinu5?1:-1);    
+        if(yu5 < Tu5) 
+        { 
+            yinu5 = true; 
+            yu5 = Tu5; 
+        }
+        if(yu5 > Bu5) 
+        { 
+            yinu5 = false; 
+            yu5 = Bu5; 
+        }
+    } 
+    var itlu5;
+    if(window.navigator.userAgent.indexOf("MSIE")>=1)
+    {
+        window.attachEvent('onload', adftu5);
+    }
+    else
+    {
+        window.addEventListener('load',adftu5, false);
+    }
+    function adftu5()
+    {
+        itlu5 = setInterval("floatADu5()", delayu5);   
+    }
+        obju5.onmouseover=function(){clearInterval(itlu5);};   
+        obju5.onmouseout=function(){itlu5=setInterval("floatADu5()", delayu5)};      
+       
+    </script>
+</body>
+</html>
