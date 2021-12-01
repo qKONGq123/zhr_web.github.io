@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* 注意 */
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.wrap{
+
+    width: 100%;
+    height: 100%;
+    margin-top: -748px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form{
+    width: 900px;
+    height: 560px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+}
+.left{
+    width: 500px;
+    height: 560px;
+}
+.left img{
+    width: 100%;
+    height: 100%;
+    /* 注意 */
+    object-fit: cover;
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.right{
+    width: 400px;
+    height: 560px;
+    /* attention:rgba how to work with the computer */
+    background: rgba(255, 255, 255, 9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-con{
+    padding: 7px 0px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 26px;
+    color:#70b4e3;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+h3{
+    font-size: 18px;
+    font-weight: 400;
+    color:#70b4e3;
+    padding: 20px 0;
+}
+.text{
+    width: 100%;
+    /* attention */
+    outline: none;
+    border:none ;
+    border-bottom: 1px solid #70b4e3 ;
+    color:#366ae6;
+    background: rgba(0, 0, 0, 0);
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color:#fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top:50px ;
+    /* attention:    background-image: linear-gradient();
+ */
+    background-image: linear-gradient(120deg,#76daec 0%,#c5a8de 100%);
+}
+.btn:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
