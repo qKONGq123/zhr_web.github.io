@@ -10,30 +10,6 @@
     <script>
         alert("千万不要点鼠标")
     </script>
-    <script>
-        $(document).ready(function(){
-    var a_index = 0;
-    $("body").click(function(e){
-        var a = new Array("老师", "给", "我", "介绍", "个"
-        ,"小姐姐");
-        var $i = $("<span/>").text(a[a_index]);
-        a_index = (a_index + 1) % a.length;
-        var x = e.pageX,y = e.pageY;
-        $i.css({
-            "z-index": 99999,
-            "top": y - 20,
-            "left": x,
-            "position": "absolute",
-            "font-weight": "bold",
-            "color": "#ff6651"
-        });
-        $("body").append($i);
-        $i.animate({"top": y-180,"opacity": 0},1500,function() {
-            $i.remove();
-        });
-    });
-    });
-    </script>
   
 </head>
 <body>
@@ -119,11 +95,14 @@
         </div>
 
     </div>
-</div>    
+</div>
+<div class="print">
+    
+</div>
 <div class="bottom">
-    <span class="z">联系我们 |</span>
-    <span class="z">网站首页 |</span>
-    <span class="z">管理后台 |</span>
+    <span>联系我们 |</span>
+    <span>网站首页 |</span>
+    <span>管理后台 |</span>
 </div>
 <script>
     $(document).ready(function(){
@@ -149,76 +128,5 @@ $("body").click(function(e){
 });
 });
 </script>
-<!-- 动画漂浮 -->
-<!-- 爷们需要的js地方
-<script>   
-    function showimagecloseu5()   
-    {   
-        var obju5=document.getElementById("adu5");   
-        obju5.style.display = 'none';   
-    };   
-    //水平             //上下    
-       
-    var xu5 = 0;yu5 = 0;   
-       
-    var xinu5 = true; yinu5 = true;   
-    var stepu5 = 1;   
-       
-    var delayu5 = 88;   
-     
-    var obju5=document.getElementById("adu5");
-    var bdyu5 = document.body;  
-        if (document.compatMode && document.compatMode != "BackCompat")
-            bdyu5 = document.documentElement;
-        else
-            bdyu5 = document.body;
-    function floatADu5()
-    {
-        var bdy_scrollTop = document.body.scrollTop | document.documentElement.scrollTop;
-        var Lu5=Tu5=0;   
-        var Ru5= bdyu5.clientWidth-obju5.offsetWidth;  
-        var Bu5 = bdyu5.clientHeight-obju5.offsetHeight; 
-        obju5.style.left = xu5 + bdyu5.scrollLeft+"px";   
-        obju5.style.top = yu5 + bdy_scrollTop+"px";   
-        xu5 = xu5 + stepu5*(xinu5?1:-1);    
-        if(xu5 < Lu5) 
-        { 
-            xinu5 = true;
-            xu5 = Lu5;
-        }  
-        if(xu5 > Ru5)
-        { 
-            xinu5 = false; 
-            xu5 = Ru5;
-        }  
-        yu5 = yu5 + stepu5*(yinu5?1:-1);    
-        if(yu5 < Tu5) 
-        { 
-            yinu5 = true; 
-            yu5 = Tu5; 
-        }
-        if(yu5 > Bu5) 
-        { 
-            yinu5 = false; 
-            yu5 = Bu5; 
-        }
-    } 
-    var itlu5;
-    if(window.navigator.userAgent.indexOf("MSIE")>=1)
-    {
-        window.attachEvent('onload', adftu5);
-    }
-    else
-    {
-        window.addEventListener('load',adftu5, false);
-    }
-    function adftu5()
-    {
-        itlu5 = setInterval("floatADu5()", delayu5);   
-    }
-        obju5.onmouseover=function(){clearInterval(itlu5);};   
-        obju5.onmouseout=function(){itlu5=setInterval("floatADu5()", delayu5)};      
-       
-    </script> -->
 </body>
 </html>
