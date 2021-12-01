@@ -24,7 +24,7 @@ button{
     letter-spacing: 2px;
     text-transform: uppercase;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 195px;
 }
 button:first-child:hover{
     background: linear-gradient(90deg,#93a9f4, #f441a5, #ffeb3b ,#03a9f4);
