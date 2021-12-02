@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+   
+}
+.zhengti{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* 平移 */
+.translation{
+    width: 50%;
+    height: 50%;
+    background: linear-gradient(to right, #ebe717, #7ec6bc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* position: absolute; */
+}
+.word1{
+    height: 25px;
+    width: 150px;
+}
+.word1 span{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+    color: red;
+    transform: translate(-100px);
+}
+.translation:hover p{
+    transform: translate(150px);
+    transition: all 1s ease-in;
+}
+.translation:hover p:nth-child(1){
+    transition-delay: 0.6s;
+}
+.translation:hover p:nth-child(2){
+    transition-delay: 0.3s;
+}
+.translation:hover p:nth-child(3){
+    transition-delay: 0.1s;
+
+}
+/* 背景变淡 */
+.translation :hover{
+    opacity:0.9;
+    transition: all 2s ease-in;
+}
+h1 {
+    font: bold 128% Consolas, Monaco, monospace;
+    border-right: 0em solid;
+    width: 16.5em;
+    width: 85ch;
+    margin: 2em 1em;
+    white-space: wrap;
+    overflow: hidden;
+    animation: typing 10s steps(101, end), cursor-blink 0.3s step-end infinite alternate;
+    margin-top: 100px;
+    width:710px;
+    height: 100px;
+    color:  #7ec6bc;  /* fallback for old browsers */
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+@keyframes cursor-blink {
+    50% {
+        border-color: transparent;
+    }
+}
+/* 旋转 */
+.rotate{
+    width: 50%;
+    height: 50%;
+    background: linear-gradient(to right, #4484BA, #004680); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* position: absolute;
+    left: 768px; */
+    position: relative;
+
+}
+.kuang{
+    height: 277px;
+    width: 459px;
+    border: black solid 2px;
+    margin-top: -361px;
+    transform: translate(0,-500px);
+}
+.rotate:hover .kuang{
+    transform: translate(0,80px) rotate(360deg);
+    transition: all 1.5s ease-in;
+    opacity: 1;
+}
+.rotate .touxiang{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 570px;
+    border-radius: 20px;
+    box-shadow:0 25px 45px rgba(0.1, 0.1, 0.1, 0.2) ;
+}
+.rotate .touxiang:hover{
+    box-shadow:0 25px 45px rgba(0.5, 0.5, 0.5, 0.8) ;
+
+}
+
+/* 斜切 */
+.skew{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    background: linear-gradient(to right, #f8f8ff, #ffa500, #8a2be2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.skew:hover{
+    background: purple;
+    transition: all 2s ease-in;
+}
+.skew:after{
+    width: 0;
+            cursor:pointer;
+            position: absolute;
+            content: "";
+            top: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+            background: #2a68cc;
+            transition: 0.6s linear;
+            background: linear-gradient(to left, #ccff00, #228b22, #0000cd, #8a2be2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.skew:hover:after{
+    width: 100%;
+}
+.skew{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.word3 {
+    width: 216px;
+    height: 100px;
+    font-weight:bolder;
+    font-size: 100px;
+}
+h4{
+    transform: skew(90deg);
+}
+.skew:hover h4{
+    transform: skew(-25deg);
+    transition: ease-in 2s all;
+}
+.skew a {
+position: absolute;
+top:163px;
+left: 240px;
+
+}
+
+.skew img{
+    width: 35%;
+    height: 50%;
+    box-shadow:0 25px 45px rgba(0.5, 0.5, 0.5, 0.8) ;
+}
+
+/* 缩放 */
+.scale{
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    background: linear-gradient(to right, #FF5555, #6025F5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.kuangsuofang{
+    height: 150px;
+    width: 150px;
+    border: black solid 2px;
+    transform: scale(2,1.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.word4{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+h3{
+    font-size: 10px;
+}
+.scale:hover .kuangsuofang{
+    transform: scale(1.5,1.5);
+    transition: ease-in 2s all;
+    opacity: 1;
+}
+.kuangsuofang img{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top:20px;
+    left: 0px;
+    box-shadow:0 25px 45px rgba(0.5, 0.5, 0.5, 0.8) ;
+}
